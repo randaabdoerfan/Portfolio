@@ -1,0 +1,34 @@
+.dynamic-shadow {
+  font-size: 48px;
+  font-weight: bold;
+  color: #E2C6C0;
+  font-family: 'Poppins', sans-serif;
+ 
+  text-shadow: 1px 1px 5px #c8a1b2, -1px -1px 5px #a0c1c2;
+  
+  animation: shadowMove 3s ease-in-out infinite alternate;
+}
+@keyframes shadowMove {
+  0% {
+    text-shadow: 2px 2px 5px #000000, -2px -2px 5px #a0c1c2;
+  }
+  50% {
+    text-shadow: 4px 4px 10px #c8a1b2, -4px -4px 10px #a0c1c2;
+  }
+  100% {
+    text-shadow: 2px 2px 5px #ffffff, -2px -2px 5px #000000;
+  }
+}
+.dynamic-shadow:hover {
+  text-shadow: 4px 4px 15px #ff7eb9, -4px -4px 15px #7afcff;
+}
+
+.me {
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.me:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15) !important;
+}

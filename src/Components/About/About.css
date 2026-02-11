@@ -1,0 +1,42 @@
+
+.profile-img{
+    width:200px ;
+    height: 320px;
+    border-radius: 50px;
+    object-fit: cover;
+    transition: 
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+
+}
+
+
+.profile-img:hover {
+  transform: scale(1.08);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25);
+}
+.about {
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.about:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15) !important;
+}
+
+
+@media (max-width: 992px) {
+  .profile-img {
+    width: 130px;
+    height: 130px;
+  }
+}
+
+
+@media (max-width: 576px) {
+  .profile-img {
+    width: 100px;
+    height: 100px;
+  }
+}

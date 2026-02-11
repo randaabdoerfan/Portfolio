@@ -1,0 +1,29 @@
+.skills-category {
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.skills-category:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15) !important;
+}
+
+
+.skill-item {
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.skill-item:hover {
+  transform: scale(1.08);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15) !important;
+}
+
+
+.skill-item img {
+  transition: transform 0.3s ease;
+}
+
+.skill-item:hover img {
+  transform: rotate(10deg) scale(1.2);
+}
