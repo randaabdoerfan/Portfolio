@@ -15,8 +15,8 @@ function Home(props) {
   return (
      <section id="home" className=" shadow mx-auto vh-500 d-flex align-items-center">
       <Container className="text-center mt-50"><br/>
-      <Me/><br/>
-      <About/><br/>
+      <Me mode={props.mode}/><br/>
+      <About mode={props.mode}/><br/>
       <Skills mode={props.mode}/><br/>
       <Projects mode={props.mode}/><br/>
       <Experience mode={props.mode}/><br/>

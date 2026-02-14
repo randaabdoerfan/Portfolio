@@ -27,3 +27,68 @@
 .skill-item:hover img {
   transform: rotate(10deg) scale(1.2);
 }
+
+.skills-title {
+  text-decoration: underline;
+  text-underline-offset: 10px;
+  text-decoration-color: #f67b68;
+  font-size: 2rem;
+}
+
+
+.category-title {
+  font-size: 1.3rem;
+}
+
+
+.skill-icon {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+}
+
+
+.skill-text {
+  font-size: 0.95rem;
+  margin-top: 5px;
+}
+
+
+@media (max-width: 992px) {
+
+  .skill-icon {
+    width: 32px;
+    height: 32px;
+  }
+
+  .skill-text {
+    font-size: 0.85rem;
+  }
+
+  .skills-title {
+    font-size: 1.7rem;
+  }
+
+}
+
+
+@media (max-width: 576px) {
+
+  .skill-icon {
+    width: 24px;
+    height: 24px;
+  }
+
+  .skill-text {
+    font-size: 0.75rem;
+  }
+
+  .skills-title {
+    font-size: 1.4rem;
+  }
+
+  .category-title {
+    font-size: 1.1rem;
+  }
+
+}
